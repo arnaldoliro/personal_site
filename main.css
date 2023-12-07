@@ -1,0 +1,165 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    color: white;
+}
+header, section h2, section h1, section h3, form button {
+    font-family: 'Archivo Black', sans-serif;
+    font-weight: normal;
+}
+body, input, textarea{
+    font-family: 'Roboto', sans-serif;
+    font-weight: normal;
+}
+header {
+    width: 100%;
+    padding: 16px;
+    background-image: url(imagens/wpp\ lkdn.jpg);
+    position: fixed;
+}
+.container{
+    max-width: 1280px;
+    width: 100%;
+    margin: 0 auto;
+}
+.container nav li{
+    display: inline;
+}
+header .container nav ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 75px;
+}
+header li a{
+    text-decoration: none;
+    color: white;
+    font-size: 32px;
+}
+section{
+    width: 100%;
+    background-image: url(imagens/background2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 16px;
+}
+section .container .about, section .portfile-contend, section .contact-methods{
+    background-size: cover;
+    background-image: url(imagens/background.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+}
+section .container h1{
+    display: flex;
+    justify-content: center;
+    margin-top: 150px;
+    margin-bottom: 10px;
+    font-size: 30px;
+}
+section .about{
+    display: flex;
+    border: 3px solid white;
+}
+section .container img{
+    height: 500px;
+    margin: 5px 5px;
+}
+section .about h2 {
+    display: flex;
+    justify-content: center;
+    font-size: 28px;
+    margin-top: 10px;
+    margin-bottom: 35px;
+}
+section .about p{
+    font-size: 22px;
+}
+section .about h2, section .about p {
+    margin-left: 20px;
+    margin-right: 60px;
+}
+section .portfile h2 {
+    display: flex;
+    justify-content: center;
+    margin-top: 300px;
+    margin-bottom: 10px;
+    font-size: 30px;
+}
+section .portfile video, section .portfile img {
+    height: 360px;
+    border: none;
+}
+
+section .portfile .image:hover, section .about img:hover{
+    border:2px solid white;
+}
+section .portfile-contend {
+    border: 3px solid  white;
+}
+section .portfile h3, section .portfile h4{
+    display: flex;
+    justify-content: center;
+    font-size: 28px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+section .portfile video{
+    margin: auto;
+    display: block;
+}
+section .contact{
+    margin-top: 200px;
+}
+section .contact h2 {
+    display: flex;
+    justify-content: center;
+    font-size: 30px;
+}
+.contact h3{
+    margin: 30px auto 10px auto;
+    font-size: 28px;
+}
+form input,
+form textarea,
+form button{
+    display: block;
+    width: 320px;
+    margin-bottom: 8px;
+    padding: 8px;
+}
+form textarea{
+    resize: none;
+    height: 180px;
+    color: black;
+}
+form input{
+    color: black;
+}
+form button {
+    background-color:rgb(0, 0, 49);
+    color:white;
+    border: none;
+    cursor: pointer;
+}
+input:focus, textarea:focus {
+    outline-color:black;
+}
+form button:hover {
+    background-color:rgb(0, 0, 142)
+}
+section .contact-methods{
+    display: flex;
+    justify-content: space-around;
+    border:3px solid white;
+}
+.contact-methods a img{
+    height: 50px;
+}
+.contact-methods a{
+    text-decoration: none;
+}
+footer{
+    background-image: url(imagens/background2.jpg);
+    padding: 10px 0;
+}
